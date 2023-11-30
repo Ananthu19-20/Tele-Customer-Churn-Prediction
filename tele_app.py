@@ -90,6 +90,7 @@ test = pd.read_csv('test.csv')
 
 # Streamlit code
 def main():
+    st.title("Predicting Customer Churn")
     image = Image.open('images/icone.png')
     image2 = Image.open('images/image.png')
     st.image(image, use_column_width=False)
@@ -98,7 +99,7 @@ def main():
         ("Online", "Batch"))
     st.sidebar.info('This app is created to predict Customer Churn')
     st.sidebar.image(image2)
-    st.title("Predicting Customer Churn")
+    
     
    
     
