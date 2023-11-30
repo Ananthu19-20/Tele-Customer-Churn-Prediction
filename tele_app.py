@@ -21,7 +21,7 @@ with open(model_file, 'rb') as f_in:
     dv, model = pickle.load(f_in)
 
 # Load the dataset
-train = pd.read_csv('/home/futures/Downloads/train.csv')
+train = pd.read_csv('train.csv')
 
 train
 
