@@ -76,8 +76,8 @@ def remove_outliers(train, labels):
     return train
 
 # Load the dataset
-train = pd.read_csv('/home/futures/Downloads/train.csv')
-test = pd.read_csv('/home/futures/Downloads/test.csv')
+train = pd.read_csv('train.csv')
+test = pd.read_csv('test.csv')
 
 # ... (rest of the code remains the same up to the Streamlit section)
 
@@ -93,8 +93,8 @@ test = pd.read_csv('/home/futures/Downloads/test.csv')
 
 # Streamlit code
 def main():
-    image = Image.open('/home/futures/Downloads/icone.png')
-    image2 = Image.open('/home/futures/Downloads/image.png')
+    image = Image.open('images/icone.png')
+    image2 = Image.open('images/image.png')
     st.image(image, use_column_width=False)
     add_selectbox = st.sidebar.selectbox(
         "How would you like to predict?",
