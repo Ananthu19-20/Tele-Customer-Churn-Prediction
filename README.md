@@ -1,4 +1,4 @@
-# churn predd
+# Telecom Customer Churn Prediction
 Customer churn is a big problem in any industry and one of the most important concerns for the Telecom industry.
 
 Churn prediction is a critical challenge faced by companies, particularly those in subscription-based services, telecommunications, and SaaS industries.
